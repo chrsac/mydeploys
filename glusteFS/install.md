@@ -1,4 +1,4 @@
-installation of Gluster FS
+installation of Gluster FS (https://docs.gluster.org/en/latest/Quick-Start-Guide/Quickstart/#step-3-installing-glusterfs)
 
  sudo fdisk /dev/vdb
  
