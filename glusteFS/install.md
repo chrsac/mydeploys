@@ -27,5 +27,22 @@ gluster volume create gv0 replica 2 cre-k8-master:/export/vdb1/brick cre-k8-4:/e
 
 gluster volume start gv0
 
+mkdir -p /mnt/k8-cre
+
+mount -t glusterfs cre-k8-master:/gv0 /mnt/k8-cre
+
+INTO CLIENTS 
+
+apt install glusterfs-cli
+
+mkdir -p /mnt/k8-cre
+
+mount -t glusterfs cre-k8-master:/gv0 /mnt/k8-cre
+
+
+
+
+
+
 
 
