@@ -39,6 +39,9 @@ mkdir -p /mnt/k8-cre
 
 mount -t glusterfs cre-k8-master:/gv0 /mnt/k8-cre
 
+Add to FSTAB
+server:/gv0 /mnt/dir glusterfs defaults,_netdev 0 0
+
 
 
 
